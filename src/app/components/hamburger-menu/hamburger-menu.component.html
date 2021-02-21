@@ -1,0 +1,23 @@
+<div id="mySidenav" class="sidenav1"  *ngIf="isTrue">
+    <div class="close" (click)="toggleButton()">
+        <a >
+          <i class="material-icons close-icon">close</i>
+        </a>
+      </div>
+    <!-- <a class="closebtn" (click)="toggleButton()" >
+        <i class="material-icons close-icon">close</i>
+    </a> -->
+    <app-navbar class = "sidenav-1"></app-navbar>
+    <div id = "overlay-screen" (click)="toggleButton()">
+    </div>
+</div>
+
+
+
+
+  
+<button class = "btn ham-icon" *ngIf="!isTrue"  (click)="toggleButton()">
+    <img src="../../assets/picture/menu-2.png" id="function-icon-filter" alt="image">
+</button>
+  
+  <!-- <span id="hamburger" style="font-size:30px;cursor:pointer" *ngIf="!isTrue"  (click)="toggleButton()">&#9776;</span> -->

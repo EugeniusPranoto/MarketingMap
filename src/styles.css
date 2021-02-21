@@ -1,1 +1,40 @@
-/* You can add global styles to this file, and also import other style files */
+    @font-face {
+        font-family: "Poppins-Light";
+        src: local("Poppins"), url(./assets/fonts/Poppins-Light.otf) format("truetype");
+    }
+    @font-face {
+        font-family: "Poppins-Bold";
+        src: local("Poppins"), url(./assets/fonts/Poppins-Bold.otf) format("truetype");
+    }
+    @font-face {
+        font-family: "Poppins-Medium";
+        src: local("Poppins"), url(./assets/fonts/Poppins-Medium.otf) format("truetype");
+    }
+    @font-face {
+        font-family: "Poppins-Regular";
+        src: local("Poppins"), url(./assets/fonts/Poppins-Regular.otf) format("truetype");
+    }
+    @font-face {
+        font-family: "Poppins-SemiBold";
+        src: local("Poppins"), url(./assets/fonts/Poppins-SemiBold.otf) format("truetype");
+    }
+
+
+    /* Autocomplete CSS */
+
+    .section-search i {
+        display: block;
+    }
+    .section-search input.autocomplete {
+        color: #000;
+    }
+    .dropdown-content li>a, .dropdown-content li>span {
+        font-family:"Poppins-Regular";
+        font-size:14px!important;
+        color:#768198!important;
+    }
+    .autocomplete-content li .highlight {
+        color: black!important;
+    }
+    
+

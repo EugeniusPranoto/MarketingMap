@@ -1,0 +1,150 @@
+
+<div class="modal filter_map" id="filter_map" #filter_map >
+    <div class="content-detail-filter_map">
+      <div class="row row-head">
+        <div class="col s8 row-header">
+          <p id="font-header">Filter</p>
+        </div>
+        <div class="col s4 row-header-close">
+          <div class="close">
+            <a class="modal-close">
+              <i class="material-icons close-icon">close</i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <hr id="header-line">
+      
+      <div class="container">
+        <div class="row row-content-title">
+          <div class="col s12">
+            <label class="active" id="form-title">Filter By Type</label>
+          </div>
+        </div>
+        <div class="row row-content-title">
+          <div class="col s12 col-chips" >
+            <div class = "spacer"></div>
+
+            <button class="chips-filter"  *ngFor="let name_filter of filter; let i = index"
+              (click)="enableDisableRule(name_filter)" 
+                [ngClass]="{'chips-filter' :!name_filter.isClicked, 'chips-filter-pressed': name_filter.isClicked}">
+                  {{ name_filter.name }}
+            </button>
+
+            
+
+           
+
+
+
+
+
+
+            
+            <!--
+            <div class="chip chips-filter">
+              Office                        
+            </div>
+            <div class="chip chips-filter">
+              MCD                        
+            </div>
+            <div class="chip chips-filter">
+              OOH                        
+            </div>
+            <div class="chip chips-filter">
+              Venue                       
+            </div>
+            <div class="chip chips-filter">
+              Others                       
+            </div> -->
+          </div>
+        </div>
+        <div class="row row-content-title">
+          <div class="col s12">
+            <hr>
+          </div>
+        </div>
+        <div class="row row-content-title">
+          <div class="col s6">
+            <label class="active" id="form-title">Filter By Brand</label>
+          </div>
+          <div class="col s6" style="text-align: right;">
+            <a class="waves-effect waves-light btn btn-add-brand modal-trigger modal-close" data-target="add_brand"><i class="material-icons left" id="icon-add">add</i>Add Brand</a>                         
+          </div>
+        </div>
+        <div class="row row-content-title">
+          <div class="col s12">
+            <table class="table-brand" id = "table-check">
+              <thead>
+                <tr class="table-header">
+                    <th class="check-td">
+                      <label >
+                        <!-- <button (click) = "checkAll(this)">Tes</button> -->
+                        <input type="checkbox" class="filled-in check" id="select-all" name="checkbox" (change)="checkAll($event)" />
+                        <span style="padding:0%;"></span>
+                      </label>
+                    </th>
+                    <th>Name</th>
+                    <th>Item Name</th>
+                    <th>Item Price</th>
+                </tr>
+              </thead>                
+              <tbody>
+                <tr class="table-content">
+                  <td class="table-content-check">
+                    <label >
+                      <input type="checkbox" class="filled-in check" name="checkbox" id="select-row" [checked]="checks"/>
+                      <span style="padding:0%;"></span>
+                    </label>
+                  </td>
+                  <td>Alvin</td>
+                  <td>Eclair</td>
+                  <td>$0.87</td>
+                </tr>
+                <tr class="table-content-row">
+                  <td class="table-content-row-check">
+                    <label >
+                      <input type="checkbox" name="checkbox" class="filled-in check" [checked]="checks"/>
+                      <span></span>
+                    </label>
+                  </td>
+                  <td>Alvin</td>
+                  <td>Eclair</td>
+                  <td>$0.87</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>          
+        </div>
+        <div class="row row-content-title">
+          <div class="col s12">
+            <hr>
+          </div>
+        </div>
+        <div class="row row-content-title">
+          <div class="col s3">
+            <a class="waves-effect waves-light modal-trigger modal-close btn btn-delete" data-target="confirmation">Delete</a>
+          </div>
+          <div class="col s9" id="col-footer">
+            
+              <ul class="pagination">
+                  <li class="disabled"><a href="#!"><i class="material-icons">chevron_left</i></a></li>
+                  <li class="active active-pagination" ><a href="#!">1</a></li>
+                  <li class="waves-effect"><a href="#!">2</a></li>
+                  <li class="waves-effect"><a href="#!">3</a></li>
+                  <li class="waves-effect"><a href="#!">4</a></li>
+                  <li class="waves-effect"><a href="#!">5</a></li>
+                  <li class="waves-effect"><a href="#!" id="chevron-right"><i class="material-icons">chevron_right</i></a></li>
+              </ul>
+          
+          </div>
+        </div>
+      </div>
+      <div class="row row-footer">
+        <div class="col s12">
+          <a class="waves-effect waves-light btn modal-trigger modal-close" data-target="confirmation" id="confirm" >Submit</a>
+          <a class="waves-effect waves-light btn modal-close" id="cancel">Cancel</a>            
+        </div>         
+      </div>
+    </div>
+  </div>

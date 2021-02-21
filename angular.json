@@ -28,9 +28,16 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/materialize/sass/materialize.scss",
+              "src/assets/css/leaflet.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+              "src/assets/materialize/js/bin/materialize.min.js",
+              "src/assets/js/navigation.js"
+              
+            ]
           },
           "configurations": {
             "production": {

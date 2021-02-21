@@ -1,0 +1,93 @@
+<div class="modal add_brand" id="add_brand" #add_brand >
+    <div class="content-detail-add-brand">
+      <div class="row row-head">
+        <div class="col s8 row-header">
+          <p id="font-header">Brand</p>
+        </div>
+        <div class="col s4 row-header-close">
+          <div class="close">
+            <a class="modal-close">
+              <i class="material-icons close-icon">close</i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <hr id="header-line">
+
+      <div class="container">
+        <div class="row row-content-title">
+          <div class="col s12">
+            <div class="form-search-icon">  
+              <input id="myInput" type="text" class="validate input-search-form" placeholder="Search..." (keyup)="searchFunction($event)">
+              <i class="material-icons">search</i>
+            </div>
+          </div>
+        </div>
+        <div class="row row-content-title">
+          <div class="col s12">
+            <table class="table-brand" id="myTable">
+              <thead>
+                <tr class="table-header">
+                    <th class="check-td">
+                      <label >
+                        <input type="checkbox" class="filled-in check" id="select-all" name="checkbox" (change)="checkAll($event)" />
+                        <span style="padding:0%;"></span>
+                      </label>
+                    </th>
+                    <th>ID</th>
+                    <th>Brand</th>
+                </tr>
+              </thead>                
+              <tbody>
+                <tr class="table-content" >
+                  <td class="table-content-check">
+                    <label >
+                      <input type="checkbox" class="filled-in check" name="checkbox" id="select-row" [checked]="checks"/>
+                      <span style="padding:0%;"></span>
+                    </label>
+                  </td>
+                  <td>K04</td>
+                  <td>A MILD</td>                  
+                </tr>
+                <tr class="table-content-row">
+                  <td class="table-content-row-check">
+                    <label >
+                      <input type="checkbox" class="filled-in check" [checked]="checks"/>
+                      <span></span>
+                    </label>
+                  </td>
+                  <td>0046</td>
+                  <td>Black Canela</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>          
+        </div>
+        <div class="row row-content-title">
+          <div class="col s12">
+            <hr>
+          </div>
+        </div>
+        <div class="row row-content-title" style="text-align:right">
+          <div class="col s12" id="col-footer">
+              <ul class="pagination">
+                  <li class="disabled"><a href="#!"><i class="material-icons">chevron_left</i></a></li>
+                  <li class="active active-pagination" ><a href="#!">1</a></li>
+                  <li class="waves-effect"><a href="#!">2</a></li>
+                  <li class="waves-effect"><a href="#!">3</a></li>
+                  <li class="waves-effect"><a href="#!">4</a></li>
+                  <li class="waves-effect"><a href="#!">5</a></li>
+                  <li class="waves-effect"><a href="#!" id="chevron-right"><i class="material-icons">chevron_right</i></a></li>
+              </ul>
+          </div>
+      </div>
+        
+      </div>
+      <div class="row row-footer">
+        <div class="col s12">
+          <a class="waves-effect waves-light btn modal-trigger modal-close" data-target="filter_map" id="confirm" >Submit</a>
+          <a class="waves-effect waves-light btn modal-close" id="cancel">Cancel</a>            
+        </div>         
+      </div>
+    </div>
+  </div>

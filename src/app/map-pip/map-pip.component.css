@@ -1,0 +1,16 @@
+@import '../../assets/css/leaflet.css';
+
+.map-container1 {
+    position: absolute;
+    height:203%;
+    width:102%;
+    z-index:1;
+  }
+  .map-frame1 {
+    height: 100%;
+  }
+  #map1 {
+    height: 49%;
+    width:98%;
+  }
+  

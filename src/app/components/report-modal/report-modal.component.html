@@ -1,0 +1,59 @@
+<div class="modal upload_image_desc" id="upload_image_desc" #upload_image_desc >
+    <div class="content-detail-desc">
+      <p class="header">Upload Image</p>
+        <div class="close">
+          <a class="modal-close">
+            <i class="material-icons close-icon">close</i>
+          </a>
+        </div>
+        <hr>
+
+        <div class="upload-container">
+          <div class="row row-upload-container">
+            <div class="col s6 col-box-left">
+              <div class="browse-image">
+                <i class="material-icons image-icon">image</i>
+                <h1>Upload Image File</h1>
+                <p>Supports: JPG,PNG</p>
+              </div>
+            </div>
+            <div class="col s6 col-box-right">
+              <div class="browse-camera">
+                <i class="material-icons camera-icon">photo_camera</i>
+                <h1>Take a Picture</h1>  
+                <p>Supports: JPG,PNG</p>              
+              </div>
+            </div>
+          </div>
+        </div>    
+
+        <div class="description-image-desc">
+          <div class="row">
+            <div class="col s12">
+              <label class="active form-title">Uploaded File</label>                       
+            </div>
+            <div class="col s11" id="col-input-file">
+              <input id="first_name2" type="text" class="validate" id="input-form" placeholder="No Image Uploaded">
+            </div>  
+            <div class="col s1">
+              <a class="waves-effect waves-light btn" id="delete-image-red">
+                <i class="material-icons delete-icon-red">close</i>
+              </a>
+            </div>
+            <div class="col s12">
+              <hr id="col-line">
+            </div>
+
+            <div class="col s12" id="col-description">
+              <label class="active form-title">Description</label>
+              <textarea id="textarea1" class="materialize-textarea textarea-form" placeholder="Enter Description"></textarea>
+            </div>                           
+          </div>
+        </div>
+        <hr id="line-footer">    
+        <div class="footer">
+          <a class="waves-effect waves-light btn modal-close" id="cancel" style="margin-left:45%">Cancel</a>
+          <a class="waves-effect waves-light btn modal-trigger modal-close" data-target="confirmation" id="confirm" >Submit</a>
+        </div>
+    </div>
+  </div> 

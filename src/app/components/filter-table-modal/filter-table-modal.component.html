@@ -1,0 +1,127 @@
+<div class="modal filter_table" id="filter_table" #filter_table >
+    <div class="content-detail-filter">
+        <p class="header">Filter</p>
+        <div class="close">
+            <a class="modal-close">
+                <i class="material-icons close-icon">close</i>
+            </a>
+        </div>
+        <hr>
+            
+        <div class="description-form-filter">
+            <div class="row title">
+                <div class="col s6" style="padding-left:0%;">
+                <label class="active form-title">Date</label>                       
+                </div>
+                <div class="col s6" style="padding-left:2%;">
+                <label class="active form-title">Status</label>                       
+                </div> 
+            </div>
+            <div class="row row-form-setting">
+                <div class="row title">
+                    <div class="col s6 col-date-range">
+                        <div class="date-icon">  
+                        <input type="text" class="validate input-form" placeholder="Choose Date" #datepicker>  
+                        <i class="material-icons">date_range</i>
+                        </div> 
+                    </div>
+                <div class="col s6" style="width:50%">                         
+                    <select class="browser-default" id="select-form" #dropdown>
+                    <option class="placeholder-select" value="" disabled selected>Choose Status</option>
+                    <option value="1" class="option-color">Option 1</option>
+                    <option value="2" class="option-color">Option 2</option>
+                    <option value="3" class="option-color">Option 3</option>
+                    </select>                                                                                                              
+                </div> 
+                </div> 
+                <div class="col s12 col-divider" >
+                <div class="divider"></div>
+                </div>
+            </div>
+            <div class="row title-commercial">
+                <div class="col s6" style="padding-left:0%;">
+                <label class="active form-title">Commercial Version</label>                       
+                </div>
+                <div class="col s6" style="padding-left:2%;">
+                <label class="active form-title">Commercial Name</label>                       
+                </div> 
+            </div>
+            <div class="row row-form-setting">
+                <div class="row row-content" >                                     
+                    <div class="col s6 col-commercial-version">                         
+                        <select style="width:105%!important" class="browser-default" id="select-form" #dropdown>
+                        <option class="placeholder-select" value="" disabled selected>Choose Commercial Version</option>
+                        <option value="1" class="option-color">Option 1</option>
+                        <option value="2" class="option-color">Option 2</option>
+                        <option value="3" class="option-color">Option 3</option>
+                        </select>                                                                                                              
+                    </div>                                                  
+                    <div class="col s6" style="width:50%">                         
+                        <select class="browser-default" id="select-form" #dropdown>
+                        <option class="placeholder-select" value="" disabled selected>Choose Commercial Version</option>
+                        <option value="1" class="option-color">Option 1</option>
+                        <option value="2" class="option-color">Option 2</option>
+                        <option value="3" class="option-color">Option 3</option>
+                        </select>                                                                                                              
+                    </div> 
+                </div> 
+                <div class="col s12 col-divider">
+                    <div class="divider"></div>
+                </div>
+            </div>
+            <div class="row title-poi">
+                <div class="col s6" style="padding-left:0%;">
+                <label class="active form-title">POI Type</label>                       
+                </div>
+                <div class="col s6" style="padding-left:1%;">
+                <label class="active form-title">Brand POI</label>                       
+                </div> 
+            </div>
+            <div class="row row-form-setting">
+                <div class="row row-content-poi">                                     
+                    <div class="col s6 col-poi-type">                         
+                        <select style="width:105%!important" class="browser-default" id="select-form" #dropdown>
+                        <option class="placeholder-select" value="" disabled selected>Choose POI Type</option>
+                        <option value="1" class="option-color">Option 1</option>
+                        <option value="2" class="option-color">Option 2</option>
+                        <option value="3" class="option-color">Option 3</option>
+                        </select>                                                                                                              
+                    </div>                                                  
+                    <div class="col s6" style="width:50%">                         
+                        <select class="browser-default" id="select-form" #dropdown>
+                        <option class="placeholder-select" value="" disabled selected>Choose Brand POI</option>
+                        <option value="1" class="option-color">Option 1</option>
+                        <option value="2" class="option-color">Option 2</option>
+                        <option value="3" class="option-color">Option 3</option>
+                        </select>                                                                                                              
+                    </div> 
+                </div> 
+                <div class="col s12 divider">
+                    <div class="divider"></div>
+                </div>
+            </div>
+            <div class="row title-location">
+                <div class="col s12" style="padding-left:0%;">
+                <label class="active form-title">Location</label>                       
+                </div>                  
+            </div>
+            <div class="row row-form-setting">
+                <div class="row row-content">                                     
+                <div class="col s12" style="width:52%; padding-left:0%!important">                         
+                    <select class="browser-default" id="select-form" #dropdown>
+                    <option class="placeholder-select" value="" disabled selected>Choose Location</option>
+                    <option value="1" class="option-color">Option 1</option>
+                    <option value="2" class="option-color">Option 2</option>
+                    <option value="3" class="option-color">Option 3</option>
+                    </select>                                                                                                              
+                </div>                                                                      
+                </div>                   
+            </div>                   
+        </div>
+        <div class="footer">
+            <hr>
+            <a class="waves-effect waves-light btn" id="cancel" style="margin-left:50%">Cancel</a>
+            <a class="waves-effect waves-light btn modal-close" id="confirm" >Submit</a>
+        </div>
+    </div>
+</div>

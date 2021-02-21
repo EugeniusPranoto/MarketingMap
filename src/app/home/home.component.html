@@ -1,0 +1,122 @@
+
+  <div class="home-container">
+    <div class="row">
+      <div class="col xl2 padding-navigation">
+        <app-navbar></app-navbar>
+      </div>
+        <div class="col s12 m12 l12 xl10 padding-map">
+          <app-map ></app-map>          
+            <div class="container" > 
+
+              <div class="autocomplete-search">
+                <div class="row row-automcomplete">
+                  <div class="col s12">
+                    <div id = "hamburger-menu" class="col s2">
+                      <app-hamburger-menu></app-hamburger-menu> 
+                    </div> 
+                    <div class="input-field col s10 form-search-icon" id="padding-autocomplete" >                  
+                      <input type="text" id="autocomplete-input" class="autocomplete" placeholder="Search...">
+                      <i class="material-icons" id="search-icon">search</i>                                    
+                    </div>
+                  </div>
+                </div>
+                <div class="row" id="spacer-row">
+                  <div class="col s12">
+                    <button class = "btn modal-trigger filter" data-target="filter_map" >
+                      <img src="../../assets/picture/filter.png" id="function-icon-filter" alt="image">
+                    </button>
+                    <button class = "btn modal-trigger legend" data-target="upload_image_single">
+                      <img src="../../assets/picture/information.png" id="function-icon-legend" alt="image">
+                    </button>
+                  </div>
+                </div>         
+              </div>
+              <div id="footer-container">
+                <div id="pip-mode">
+                  <app-map-pip></app-map-pip>
+                </div>
+              </div>
+
+              <app-advanced-search-modal></app-advanced-search-modal>
+              <app-legend-modal></app-legend-modal>
+              <app-filter-map-modal></app-filter-map-modal>
+              <app-upload-geojson-modal></app-upload-geojson-modal>
+              <app-success-modal></app-success-modal>
+              <app-confirmation-modal></app-confirmation-modal>
+              <app-add-brand-modal></app-add-brand-modal>
+              <app-poi-detail-map-modal></app-poi-detail-map-modal>
+              <app-report-modal></app-report-modal>          
+              <app-add-poi-modal></app-add-poi-modal>
+              <app-edit-poi-modal></app-edit-poi-modal>
+              <app-upload-image-modal></app-upload-image-modal>
+              <app-poi-details-info></app-poi-details-info>
+              <app-location-poi-modal></app-location-poi-modal>
+
+              
+              <div class="fab">
+                <span class="fab-action-button">
+                    <i class="material-icons plus">add</i>
+                </span>
+                <ul class="fab-buttons">
+                  <li class="fab-buttons__item">
+                    <a href="#" class="fab-buttons__link modal-trigger" data-target="location_poi" data-tooltip="Add POI" style="cursor: pointer;">
+                      <i class="material-icons split">location_on</i>
+                    </a>
+                  </li>
+                  <li class="fab-buttons__item">
+                    <a href="#" class="fab-buttons__link modal-trigger" data-target="upload_geo" style="cursor: pointer;" data-tooltip="Upload Area">
+                      <i class="material-icons pencil">pin_drop</i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              
+            </div>
+
+
+            <!-- <div id="box-container">
+              
+
+              
+
+              
+
+              
+          </div> -->
+        </div>
+      </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Pengembangan Fase 2 -->
+  <!-- <li><a ><i class="material-icons icontest" style = "margin-right:10px;font-size:18px">developer_board</i>Dashboard<i class="material-icons icontest" style = "margin-left:50px;">keyboard_arrow_right</i> </a></li>
+          <li><a routerLink="/poi-report"><i class="material-icons icontest" style = "margin-right:10px;font-size:18px">developer_board</i>Report<i class="material-icons icontest" style = "margin-left:80px;">keyboard_arrow_right</i> </a></li>
+          <li><a routerLink="/poi-list"><i class="material-icons icontest" style = "margin-right:10px;font-size:18px">developer_board</i>POI List<i class="material-icons icontest" style = "margin-left:75px;">keyboard_arrow_right</i> </a></li> -->
+
+  
+
+
+

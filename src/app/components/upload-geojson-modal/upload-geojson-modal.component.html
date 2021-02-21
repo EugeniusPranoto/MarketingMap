@@ -1,0 +1,64 @@
+
+<div class="modal upload_geo" id="upload_geo" #upload_geo >
+    <div class="content-detail-geo">
+      <div class="row row-head">
+        <div class="col s8 row-header">
+          <p id="font-header">Add Area Vector</p>
+        </div>
+        <div class="col s4 row-header-close">
+          <div class="close">
+            <a class="modal-close">
+              <i class="material-icons close-icon">close</i>
+            </a>
+          </div>
+        </div>
+      </div>
+        <hr>    
+
+
+        <div class="container">
+          <div class ="row row-content-rso">
+            <div class="col s12">
+              <label class="active" id="form-title">RSO Area</label>                       
+            </div>
+          </div>
+          <div class="row row-input">          
+            <div class="col s12">
+              <select class="browser-default" id="select-form" #dropdown>
+                <option class="placeholder-select" value="" disabled selected>Choose RSO</option>
+                <option value="1" class="option-color">Jakarta</option>
+                <option value="2" class="option-color">Bandung</option>
+                <option value="3" class="option-color">Semarang</option>
+                <option value="3" class="option-color">Surabaya</option>
+              </select>        
+            </div>
+          </div>
+          <div class ="row row-content-rso">
+            <div class="col s12">
+              <label class="active" id="form-title">Upload GeoJSON</label>                       
+            </div>
+          </div>
+          <div class="row row-input">          
+            <div class="col s12">
+                <form action="#">
+                  <div class="file-field input-field" id="spacing-input-field" >
+                    <div class="btn upload test">
+                      <span>Browse</span>
+                      <input type="file" multiple>
+                    </div>
+                    <div class="file-path-wrapper">
+                      <input class="file-path validate" id="input" type="text" placeholder="Upload one or more files">
+                    </div>
+                  </div>
+                </form>  
+            </div>
+          </div>
+        </div>
+        <div class="row row-footer">
+          <div class="col s12">
+            <a class="waves-effect waves-light btn modal-trigger modal-close" data-target="confirmation" id="confirm" >Submit</a>
+            <a class="waves-effect waves-light btn modal-close" id="cancel">Cancel</a>            
+          </div>         
+        </div>
+    </div>
+  </div>

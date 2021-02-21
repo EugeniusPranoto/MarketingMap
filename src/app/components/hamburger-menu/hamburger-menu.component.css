@@ -1,0 +1,431 @@
+@media only screen and (max-width: 600px) {
+  #overlay-screen{
+    height: 100%;
+    width: 60%;
+    position: fixed;
+    z-index: 3!important;
+    top: 0;
+    left: 65%;
+    background-color: rgba(0, 0, 0, 0.25);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  #hamburger-menu{
+    display: block;
+  }
+  #hamburger{
+    margin-top:5%;
+  }
+  .ham-icon{
+    background-color:white;
+    border-radius:5px;
+    border:none;
+    height:43px;
+    width:45px;
+    padding-left:1%;
+    padding-right:1%;
+    padding-bottom:1%;
+    padding-top:0%;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.12);
+    margin-right:2%;
+  }
+  #function-icon-filter{
+    color:#768198;
+    vertical-align: middle;
+    width:65%;
+    padding-top:5%;
+    padding-bottom:5%;
+  }
+  .sidenav1 {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 3!important;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  .sidenav-1{
+    height: 100%;
+    width: 65%;
+    position: fixed;
+    z-index: 3!important;
+    top: 0;
+    left: 0;
+    background-color: #16233C;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav1 a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav1 a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav1 .close {
+    position: absolute;
+    top: 3%;
+    right:40%;
+    margin-left: 0px;
+    z-index: 5!important;
+    height: 35px;
+    width: 35px;
+    background-color: #2D384F;
+    border-radius: 55%;
+    display: inline-block;
+  }
+  
+  .close .close-icon{
+    position: absolute;
+    top:20%!important;
+    left:20%!important;
+    right:20%!important;
+    bottom:80%!important;
+    font-size:23px;
+    color:#ffffff;
+    
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  #overlay-screen{
+    height: 100%;
+    width: 60%;
+    position: fixed;
+    z-index: 3!important;
+    top: 0;
+    left: 45%;
+    background-color: rgba(0, 0, 0, 0.25);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  #hamburger-menu{
+    display: block;
+  }
+  #hamburger{
+    margin-top:5%;
+  }
+  .ham-icon{
+    background-color:white;
+    border-radius:5px;
+    border:none;
+    height:43px;
+    width:45px;
+    padding-left:1%;
+    padding-right:1%;
+    padding-bottom:1%;
+    padding-top:0%;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.12);
+    margin-right:2%;
+  }
+  #function-icon-filter{
+    color:#768198;
+    vertical-align: middle;
+    width:65%;
+    padding-top:5%;
+    padding-bottom:5%;
+  }
+  .sidenav1 {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 3!important;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  .sidenav-1{
+    height: 100%;
+    width: 45%;
+    position: fixed;
+    z-index: 3!important;
+    top: 0;
+    left: 0;
+    background-color: #16233C;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav1 a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav1 a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav1 .close {
+    position: absolute;
+    top: 3%;
+    right:58%;
+    font-size: 36px;
+    margin-left: 0px;
+    z-index: 5!important;
+    height: 35px;
+    width: 35px;
+    background-color: #2D384F;
+    border-radius: 55%;
+    display: inline-block;
+  }
+  
+  .close .close-icon{
+    position: absolute;
+    top:20%!important;
+    left:20%!important;
+    right:20%!important;
+    bottom:80%!important;
+    font-size:23px;
+    color:#ffffff;
+    
+  }
+  
+  @media only screen and (min-width: 600px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  #overlay-screen{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 3!important;
+    top: 0;
+    left: 35%;
+    background-color: rgba(0, 0, 0, 0.25);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  #hamburger-menu{
+    display: block;
+  }
+  #hamburger{
+    margin-top:5%;
+  }
+  .ham-icon{
+    background-color:white;
+    border-radius:5px;
+    border:none;
+    height:43px;
+    width:45px;
+    padding-left:1%;
+    padding-right:1%;
+    padding-bottom:1%;
+    padding-top:0%;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.12);
+    margin-right:2%;
+  }
+  #function-icon-filter{
+    color:#768198;
+    vertical-align: middle;
+    width:65%;
+    padding-top:5%;
+    padding-bottom:5%;
+  }
+  .sidenav1 {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 3!important;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  .sidenav-1{
+    height: 100%;
+    width: 35%;
+    position: fixed;
+    z-index: 3!important;
+    top: 0;
+    left: 0;
+    background-color: #16233C;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav1 a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav1 a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav1 .close {
+    position: absolute;
+    top: 3%;
+    right:67%;
+    font-size: 36px;
+    margin-left: 0px;
+    z-index: 5!important;
+    height: 35px;
+    width: 35px;
+    background-color: #2D384F;
+    border-radius: 55%;
+    display: inline-block;
+  }
+  
+  .close .close-icon{
+    position: absolute;
+    top:15%!important;
+    left:20%!important;
+    right:20%!important;
+    bottom:75%!important;
+    font-size:23px;
+    color:#ffffff;
+    
+  }
+  
+  @media only screen and (min-width: 768px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+}
+
+/* Medium devices (landscape tablets, 992px and up) */
+@media only screen and (min-width: 992px) {
+  #overlay-screen{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 3!important;
+    top: 0;
+    left: 28%;
+    background-color: rgba(0, 0, 0, 0.25);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  #hamburger-menu{
+    display: block;
+  }
+  #hamburger{
+    margin-top:5%;
+  }
+  .ham-icon{
+    background-color:white;
+    border-radius:5px;
+    border:none;
+    height:43px;
+    width:45px;
+    padding-left:1%;
+    padding-right:1%;
+    padding-bottom:1%;
+    padding-top:0%;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.12);
+    margin-right:2%;
+  }
+  #function-icon-filter{
+    color:#768198;
+    vertical-align: middle;
+    width:65%;
+    padding-top:5%;
+    padding-bottom:5%;
+  }
+  .sidenav1 {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 3!important;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  .sidenav-1{
+    height: 100%;
+    width: 28%;
+    position: fixed;
+    z-index: 3!important;
+    top: 0;
+    left: 0;
+    background-color: #16233C;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav1 a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav1 a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav1 .close {
+    position: absolute;
+    top: 2.5%;
+    right:74.5%;
+    font-size: 36px;
+    margin-left: 0px;
+    z-index: 5!important;
+    height: 35px;
+    width: 35px;
+    background-color: #2D384F;
+    border-radius: 55%;
+    display: inline-block;
+  }
+  
+  .close .close-icon{
+    position: absolute;
+    top:20%!important;
+    left:18%!important;
+    right:18%!important;
+    bottom:80%!important;
+    font-size:23px;
+    color:#ffffff;
+    
+  }
+  
+  @media only screen and (min-width: 992px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+}
+
+ 

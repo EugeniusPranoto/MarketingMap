@@ -1,0 +1,67 @@
+  
+    <div class="modal upload_image_single" id="upload_image_single" #upload_image_single>
+      <div class="content-detail-single">
+        <div class="row row-head">
+          <div class="col s8 row-header">
+            <p id="font-header">Upload Image</p>
+          </div>
+          <div class="col s4 row-header-close">
+            <div class="close">
+              <a class="modal-close">
+                <i class="material-icons close-icon">close</i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <hr id="header-line">
+
+        <div class="container">
+          <div class="file-field input-field" id="spacing-input-field" >
+          <div class="row" id="row-boxes">
+            <div class="col s6" id="col-box-left">
+              <div class="btn browse-image">
+                <input type="file" id="range-upload" multiple>
+                <i class="material-icons image-icon">image</i>
+                <h1>Upload Image</h1>
+                <!-- <span>Supports: JPG,PNG</span> -->
+              </div>
+            </div>
+            <div class="col s6" id="col-box-right">
+              <div class="browse-camera">
+                <i class="material-icons camera-icon">photo_camera</i>
+                <h1>Take a Picture</h1>
+                <!-- <p>Supports: JPG,PNG</p> -->
+              </div>
+            </div>
+          </div>
+
+          
+          
+          <div class="row row-content-title">
+            <div class="col s12">
+              <label class="active" id="form-title">Uploaded File</label>
+            </div>
+          </div>
+          <div class="row row-content-input">
+            <div class="col s10" id="col-input-width">
+              <!-- <input  type="text" class="validate" id="input-form" disabled placeholder="No Image Uploaded"> -->              
+              <div class="file-path-wrapper" id="spacing-input-picture">
+                <input type="text" class="file-path validate" id="input-form" placeholder="Upload one or more files" readonly>
+              </div>
+            </div>
+            <div class="col s2" id="delete-button-spacing">
+              <a class="waves-effect waves-light btn modal-trigger modal-close" data-target="confirmation" id="delete-image">
+                <i class="material-icons delete-icon-red">close</i>
+              </a>
+            </div>
+          </div>
+          </div>
+        </div>
+        <div class="row row-footer">
+          <div class="col s12">
+            <a class="waves-effect waves-light btn modal-trigger modal-close" data-target="confirmation" id="confirm" >Submit</a>
+            <a class="waves-effect waves-light btn modal-close" id="cancel">Cancel</a>            
+          </div>         
+        </div>
+      </div>
+    </div>

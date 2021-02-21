@@ -1,0 +1,317 @@
+html,
+body {
+  height: 100%;
+}
+.padding-navigation {
+    padding-left:0px;
+    padding-right:0px;
+    background-color:black;
+    width:15%    
+}
+.sidenavbar{
+    background-color:#16233C;
+    position:fixed;
+    height:100%;
+    width:15%;
+}
+.sidenavbar p{
+    font-family:"Poppins-Medium";
+    font-size:16px;
+    color:#FFFFFF;
+    padding-left:10%;
+    padding-top:10%;
+    margin-bottom:8%;
+}
+.sidenavbar .back-button{
+    padding-top:10%;
+    padding-right:10%;
+    text-align: right;
+}
+.sidenavbar .back{
+    height: 30px;
+    width: 30px;
+    background-color: #2D384F;
+    border-radius: 50%;
+    display: inline-block;
+    border: 4px solid #2D384F;
+}
+.back .back-icon{
+    font-size:23px;
+    color:#ffffff;
+}
+.sidenavbar .row-line-header{
+    margin-bottom:0%;
+}
+.sidenavbar hr{
+    width:85%;
+    background-color:#A4AAB6;
+    opacity:0.6;
+}
+.sidenavbar .row-title{
+    margin-bottom:0%;
+}
+.sidenavbar .row-tree-menu{
+    margin-bottom: 0%!important;
+}
+
+.row-tree-menu .col-level-1{
+    padding-left:13%!important;
+}
+.row-tree-menu .col-level-2{
+    padding-left:15%!important;
+}
+.row-tree-menu .col-level-3{
+    padding-left:17%!important;
+}
+.row-tree-menu .col-level-4{
+    padding-left:20%!important;
+}
+.row-tree-menu .col-level-5{
+    padding-left:20%!important;
+}
+
+/* Hierarki 1 */
+
+#li-jakarta:focus{
+    background-color:blue;
+}
+
+.sidenavbar .location-container-new{
+    display:inline-block;
+    background-color: #2D384F;
+    width:90%;
+    border-radius: 5px;
+    margin-right:0%!important;
+    padding:4%!important;
+}
+.location-container-new span{
+    width:85%!important;
+    font-family: "Poppins-Medium";
+    font-size: 14px;
+    color:white; 
+    margin-top:0%!important;
+    margin-bottom:0%!important;
+}
+.location-container-new .expand-icon-new{
+    float: right;
+    font-size:23px;
+    color:#768198;    
+}
+
+
+/*Hierarki 2 */ 
+
+.location-container-new1{
+    display:inline-block;
+    background-color: #2D384F;
+    width:88%;
+    border-radius: 5px;
+    margin-right:0%!important;
+    margin-top:4%!important;
+    padding:4%!important;
+}
+.location-container-new1 span{
+    width:85%!important;
+    font-family: "Poppins-Medium";
+    font-size: 14px;
+    color:white;     
+    padding-left:3%;
+}
+.location-container-new1 .expand-icon-new1{
+    float: right;
+    font-size:23px;
+    color:#768198;    
+}
+
+/* Hierarki 3 */
+
+.location-container-new2{
+    display:inline-block;
+    background-color: #2D384F;
+    width:88%;
+    border-radius: 5px;
+    margin-right:0%!important;
+    margin-top:3%!important;
+    padding:5%!important;
+}
+.location-container-new2 span{
+    width:82%!important;
+    font-family: "Poppins-Medium";
+    font-size: 14px;
+    color:white;     
+    margin-top:10%!important;
+    margin-bottom:0%!important;
+    padding-left:3%;
+}
+.location-container-new2 .expand-icon-new2{
+    float: right;
+    font-size:23px;
+    color:#768198;    
+}
+
+/* Hierarki 4 */
+
+.location-container-new3{
+    display:inline-block;
+    background-color: #2D384F;
+    width:88%;
+    border-radius: 5px;
+    margin-right:0%!important;
+    margin-top:3%!important;
+    padding:7%!important;
+    
+}
+.location-container-new3 span{
+    width:77%!important;
+    font-family: "Poppins-Medium";
+    font-size: 14px;
+    color:white;     
+    margin-top:13%!important;
+    margin-bottom:0%!important;
+    padding-left:3%;
+}
+.location-container-new3 .expand-icon-new3{
+    float:right;
+    font-size:23px;
+    color:#768198;    
+}
+
+/* Hierarki 5 */
+
+.location-container-new4{
+    display:inline-block;
+    background-color: #2D384F;
+    width:88%;
+    border-radius: 5px;
+    margin-right:0%!important;
+    margin-top:3%!important;
+    padding:7%!important;
+    
+}
+.location-container-new4 span{
+    width:76%!important;
+    font-family: "Poppins-Medium";
+    font-size: 14px;
+    color:white;     
+    margin-top:16%!important;
+    margin-bottom:0%!important;
+    padding-left:3%;
+}
+.location-container-new4 .expand-icon-new4{
+    float: right;
+    font-size:23px;
+    color:#768198;    
+}
+
+/* Hierarki 6 */
+
+.location-container-new5{
+    display:inline-block;
+    background-color: #2D384F;
+    width:88%;
+    border-radius: 5px;
+    margin-right:0%!important;
+    margin-top:3%!important;
+    padding:7%!important;
+    
+}
+.location-container-new5 span{
+    width:74%!important;
+    font-family: "Poppins-Medium";
+    font-size: 14px;
+    color:white;     
+    margin-top:16%!important;
+    margin-bottom:0%!important;
+    padding-left:3%;
+}
+
+.check-with-label:checked + label {
+    color: yellow!important;
+  }
+
+  input[type=checkbox]:checked {
+    color: #f00!important;
+  } 
+
+
+
+
+
+
+
+
+
+input[type="checkbox"]:checked+label{
+  background-color:#2A3E66;
+}
+
+
+
+/* Navigation Tree */
+
+
+input{
+    font-size:1em;
+}
+ol.tree{
+    padding-left:30px;
+}
+li{
+    list-style-type:none;
+    color:#fff;
+    position:relative;
+    margin-left:-15px;
+}
+li label{
+    /* padding-left:37px;cursor:pointer;background:url("https://www.thecssninja.com/demo/css_tree/folder-horizontal.png") no-repeat 15px 2px;display:block; */
+}
+li input{
+    width:1em;
+    height:1em;
+    position:absolute;
+    left:-0.5em;
+    top:0;
+    opacity:0;
+    cursor:pointer;
+    
+}
+li input + ol{
+    /* height:1em;margin:-16px 0 0 -44px;background:url("https://www.thecssninja.com/demo/css_tree/toggle-small-expand.png") no-repeat 40px 0; */
+    
+}
+li input + label + ol > li{
+    display:none;margin-left:-14px !important;padding-left:1px;
+}
+li.file{
+    margin-left:-1px !important;
+}
+li.file a{
+    /* display:inline-block;padding-left:21px;color:#fff;text-decoration:none;background:url("https://www.thecssninja.com/demo/css_tree/document.png") no-repeat 0 0; */
+}
+li input:checked + ol{
+    /* height:auto;margin:-21px 0 0 -44px;padding:25px 0 0 80px;background:url("https://www.thecssninja.com/demo/css_tree/toggle-small.png") no-repeat 40px 5px; */
+    
+}
+li input:checked + label + ol > li{
+    display:block;margin:0 0 0.063em;
+    
+}
+
+li input:checked + label > i {
+    color:#6EB6FF;
+}
+
+
+li input:checked + label + ol > li:first-child{
+    margin:0 0 0.125em;
+}
+/*  
+input[type="checkbox"]:checked + .sidenavbar.location-container-new{
+    background-color:blue!important;
+  } */
+
+
+ 
+
+
+

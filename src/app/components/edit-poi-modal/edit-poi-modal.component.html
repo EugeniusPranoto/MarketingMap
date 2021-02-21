@@ -1,0 +1,111 @@
+    <div class="modal edit_poi" id="edit_poi" #edit_poi >
+        <div class="content-detail-edit">
+            <div class="row row-head">
+                <div class="col s8 row-header">
+                  <p id="font-header">Edit POI</p>
+                </div>
+                <div class="col s4 row-header-close">
+                  <div class="close">
+                    <a class="modal-close">
+                      <i class="material-icons close-icon">close</i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <hr id="header-line">
+
+              <div class="container">
+                <div class="row row-content-title">
+                    <div class="col s12 l12 xl6">
+                        <div class="row row-carousel">
+                            <div class="col s12">
+                              
+                              <div class="outer-wrapper" style = "position:relative">
+                                <a class="modal-trigger modal-close" data-target="upload_image_single"  >
+                                  <div class="edit">
+                                      <i class="material-icons edit-icon">create</i>
+                                  </div>
+                              </a> 
+                                <div class="s-wrap s-type-1" role="slider">
+                                  <input type="radio" id="s-4" name="slider-control3">
+                                    <input type="radio" id="s-5" name="slider-control3">
+                                    <input type="radio" id="s-6" name="slider-control3">
+                                    <ul class="s-content">
+                                      <li class="s-item s-item-1"></li>
+                                      <li class="s-item s-item-2"></li>
+                                      <li class="s-item s-item-3"></li>
+                                    </ul>
+                                    <div class="s-control">
+                                      <label class="s-c-1" for="s-4"></label>
+                                      <label class="s-c-2" for="s-5"></label>
+                                      <label class="s-c-3" for="s-6"></label>
+                                    </div>
+                                    <div class="s-nav">
+                                      <label class="s-nav-1 right" for="s-5"></label>
+                                      <label class="s-nav-2 left" for="s-4"></label>
+                                      <label class="s-nav-2 right" for="s-6"></label>
+                                      <label class="s-nav-3 left" for="s-5"></label>
+                                    </div>
+                                </div>
+                              </div>  
+                            </div>         
+                        </div>                            
+                        <div id="spacer-location"></div>
+                        <label class="active" id="form-title">Location</label>
+                        <div id="spacer-title"></div>
+                        <textarea id="textarea1" class="materialize-textarea" id="input-form-textarea" placeholder="Location"></textarea>
+                    
+                    </div>
+                    <div class="col s12 l12 xl6">
+                        <label class="active" id="form-title">POI Type</label>
+                        <div id="spacer-title"></div>
+                        <select class="browser-default" id="select-form" #dropdown>
+                            <option class="placeholder-select" value="" disabled selected>Choose POI Type</option>
+                            <option value="1" class="option-color">Jakarta</option>
+                            <option value="2" class="option-color">Bandung</option>
+                            <option value="3" class="option-color">Semarang</option>
+                            <option value="3" class="option-color">Surabaya</option>
+                          </select>
+                        <div id="spacer"></div> 
+                                                
+                        <label class="active" id="form-title">Billboard Brand</label>
+                        <div id="spacer-title"></div>
+                        <select class="browser-default" id="select-form" #dropdown>
+                            <option class="placeholder-select" value="" disabled selected>Billboard Brand</option>
+                            <option value="1" class="option-color">Jakarta</option>
+                            <option value="2" class="option-color">Bandung</option>
+                            <option value="3" class="option-color">Semarang</option>
+                            <option value="3" class="option-color">Surabaya</option>
+                          </select>
+                        <div id="spacer"></div>  
+
+                        <label class="active" id="form-title">Billboard Type</label>
+                        <div id="spacer-title"></div>
+                        <select class="browser-default" id="select-form" #dropdown>
+                            <option class="placeholder-select" value="" disabled selected>Billboard Type</option>
+                            <option value="1" class="option-color">Jakarta</option>
+                            <option value="2" class="option-color">Bandung</option>
+                            <option value="3" class="option-color">Semarang</option>
+                            <option value="3" class="option-color">Surabaya</option>
+                        </select>
+                        <div id="spacer"></div>  
+                        
+                        <label class="active" id="form-title">Commercial Name</label>
+                        <div id="spacer-title"></div>
+                        <input  type="text" class="validate input-form" placeholder="Enter Commercial Name"> 
+                        <div id="spacer"></div>  
+                        
+                        <label class="active" id="form-title">Commercial Version</label>
+                        <div id="spacer-title"></div>
+                        <input  type="text" class="validate input-form" placeholder="Enter Commercial Version"> 
+                        <div id="spacer"></div>  
+                    </div> 
+                </div>
+            </div>
+            <div class="row row-footer">
+                <div class="col s12">
+                  <a class="waves-effect waves-light btn modal-trigger modal-close" data-target="confirmation" id="confirm" >Submit</a>
+                  <a class="waves-effect waves-light btn modal-close" id="cancel">Cancel</a>            
+                </div>         
+              </div>
+        </div>
